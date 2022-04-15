@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    position: relative;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 12px;
+    height: auto;
+    width: 300px;
+}
+
+.card-qr {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+.card-qr img{
+    width: 100%;
+    max-width: 270px;
+    border-radius: 12px;
+}
+
+.card-content {
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.card-content h2 {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.card-content p {
+    color: #aeabab;
+}
